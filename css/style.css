@@ -1,0 +1,863 @@
+body {
+    margin: 0;
+    font-family: 'metropolisregular';
+    background-color: #040814;
+    color:#f9f9f9 ;
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    background-color: rgb(4, 7, 20);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header a {
+    color: #c0c0c0;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'metropolisregular';
+    letter-spacing: 1px;
+    color: rgb(218, 219, 220);
+    border: 1px solid rgba(192, 192, 192, 0.875);
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-right:41px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(4, 7, 20, 0.7);
+}
+
+header a:hover {
+    background-color: #f9f9f9;
+    color: rgb(4, 7, 20);
+    transition: all 0.5s;
+}
+
+.splash {
+    margin-top: 63px;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/original.jfif)center center;
+    background-size: cover;
+    box-shadow: 6px 6px 18px 2px rgb(4 8 20) inset;
+}
+
+.portada {
+    width: 50%;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.title h3{
+    color: #f9f9f9;
+    font-size: 27px;
+    margin: 0%;
+    padding-bottom: 3px;   
+}
+
+.portada img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.btn-subs {
+    color: #f9f9f9;
+    font-size: 18px;
+    background-color: rgb(1, 107, 248);
+    border-radius: 5px;
+    width: 595px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-decoration: none;
+    margin-top: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.pp {
+    margin-top: 23px;
+    margin-bottom: 21px;
+}
+.pp p{
+    margin: 0;
+    padding-bottom: 8px;
+    font-size: 11.7px;
+    color: #c0c0c0;    
+}
+
+.subs {
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+.costo{
+    font-size: 17px;
+    color: #c0c0c0;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.section2 {
+    margin-top: 52px;
+    margin-bottom: 50px;
+    display: flex;
+    padding-left: 76px;
+    padding-right: 76px;
+}
+.section2 img{
+    width: 595px; 
+    padding-right: 25px;   
+}
+
+.cuandoquieras {
+    height: 476px;
+    align-content: center;
+    
+}
+.section2 h2 {
+    padding-top: 85px;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.section2 p {
+    margin: 0px;
+    padding-top: 20px;
+    padding-right: 10px;
+    color: #c0c0c0;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 86px 72px 76px 76px;
+}
+
+.section3 p {
+    color: #c0c0c0;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 140px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+
+}
+
+.section3 a {
+    color: #f9f9f9;
+    font-size: 19px;
+    background-color: rgb(1, 107, 248);
+    border-radius: 5px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.section3 img {
+    width: 595px;
+    margin-left: 25px;
+}
+
+.section4responsive {
+    display: none;
+}
+
+.section4{
+    display: flex;
+    justify-content: center;
+}
+.reyleon {
+    background: url(../img/rey-leon.png)center center;
+    background-size: cover;
+    width: 1190px;
+    height: 694px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textos4 {
+    margin-top: 240px;
+    margin-right: 28px;
+    margin-left: 600px;
+}
+
+.textos4 h3 {
+    font-size: 27px;
+    color: #f9f9f9;
+}
+
+.textos4 p {
+    font-size: 17px;
+    color: #c0c0c0;
+    line-height: 30px;
+}
+
+.section5 {
+    padding:76px
+}
+.section5 h2{
+    font-size: 40px;
+    color: #f9f9f9;
+    text-align: center;
+}
+
+.dispositivos {
+    display: flex;
+    justify-content: space-around;
+
+}
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 180px;
+    margin-bottom: 5px;
+}
+
+.card h3 {
+    font-size: 28px;
+    color: #f9f9f9;
+}
+.card p{
+    margin: 0;
+    font-size: 16px;
+    color: #c0c0c0;
+    line-height: 30px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    width: 80px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+.links-footer {
+    justify-content: space-around;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.links-footer a {
+    text-decoration: none;
+    color: #c0c0c0;
+    font-size: 12px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.links-footer a:hover{
+    color: #f9f9f9;
+}
+
+
+.p1 {
+    color: #c0c0c0;
+    font-size: 12px;
+}
+
+.p2 {
+    color: #c0c0c0;
+    font-size: 12px; 
+    padding-bottom: 4px;
+    line-height: 20px;
+    margin-bottom: 50px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+    /*RESPONSIVE*/
+    
+    @media screen and (max-width:1024px){
+        .splash{
+            height: 100vh;
+            background: url(../img/portada\ responsive.jfif)center center;
+            background-size: cover;
+            margin-top: 0;
+            padding-top: 500px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .portada {
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            margin-top: 350px;
+            margin-left: 180px;
+            position: absolute;
+            top: 50px;
+        }
+
+        .title h3{
+            font-size: 24px;
+        }
+        
+        .portada img {
+            width: 320px;
+        }
+        
+       
+        .section2 {
+            padding-left: 51px;
+            padding-right: 51px;
+        }
+
+        .section2 img{
+            width: 460px; 
+            padding-right: 18px; 
+        }
+        
+        .cuandoquieras {
+            height: 460px;
+            align-content: center;
+            
+        }
+        .section2 h2 {
+            padding-top: 50px;
+            font-size: 28px;
+        }
+        
+        .section2 p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+
+        .section3 {
+            padding: 86px 51px 76px 51px;
+        }
+        
+        .section3 p {
+            font-size: 15px;
+            line-height: 25px;
+            padding-top: 80px;
+        }
+
+        .section3 img {
+            width: 460px;
+            margin-left: 25px;
+        }
+
+        .reyleon {
+            width: 921px;
+            height: 537px;
+        }
+        
+        .textos4 {
+            margin-top: 180px;
+            margin-left:500px;
+        }
+        
+        .textos4 h3 {
+            font-size: 26px;
+        }
+        
+        .textos4 p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        .section5 {
+            padding: 51px;
+        }
+        .section5 h2{
+            font-size: 28px;
+        }
+        
+        .card img {
+            width: 145px;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+        
+        .card h3 {
+            font-size: 24px;
+        }
+        .card p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+    }
+
+    @media screen and (max-width:768px){
+        header a {
+            font-size: 15px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            margin-top: 20px;
+        }
+
+        .splash{
+            width: 100vw;
+            background: url(../img/portada\ responsive.jfif) center center;
+            background-size: cover;
+            margin-top: 0;
+            margin-bottom: 200px;
+            padding-top: 700px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            height: auto;
+        }
+
+        .portada {
+            width: 600px;
+            margin: 0% auto;
+            position: absolute;
+            top: 400px;
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+
+        .title h3{
+            font-size: 20px;
+        }
+        
+        .portada img {
+            width: 180px;
+        }
+
+        .btn-subs {
+            font-size: 15px;
+            width: 500px;
+            padding-top: 11.5px;
+            padding-bottom: 11.5px;
+        }
+        
+       
+        .section2 {
+            padding-left: 51px;
+            padding-right: 51px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .section2 img{
+            width: 691px; 
+            padding-right: 0;
+        }
+        
+        .cuandoquieras {
+            height: auto;
+            align-content: center;   
+        }
+        .section2 h2 {
+            font-size: 25px;
+        }
+        
+        .section2 p {
+            font-size: 15px;
+            line-height: 20px;
+        }
+
+        .section3 {
+            display: flex;
+            flex-direction:column-reverse;
+            text-align: center;
+        }
+        
+        .section3 p {
+            font-size: 14px;
+            line-height: 20px;
+            padding-top: 20px;
+        }
+
+        .section3 img {
+            width: 691px;
+            margin-left: 0px;
+        }
+
+        .section3 a {
+            font-size: 15px;
+        }
+
+        .section4 {
+            display: none;
+        }
+
+        .section4responsive {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .reyleon2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .section4responsive img {
+            width: 691px;
+            margin: 0% auto;
+        }
+                
+        .textos4 {
+            text-align: center;
+            margin-top: 40px;
+            margin-left:0px;
+            
+        }
+        
+        .textos4 h3 {
+            font-size: 22px;
+            text-align: center;
+        }
+        
+        .textos4 p {
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .section5 h2{
+            font-size: 26px;
+        }
+        
+        .dispositivos {
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        footer{
+            padding: 38px;
+        }
+
+        .links-footer {
+            padding-bottom: 25px;
+        }
+    }
+
+    @media screen and (max-width:425px){
+
+        .splash{
+            width: 100vw;
+            background: url(../img/portada3.jfif) center center;
+            background-size: cover;
+            padding-top: 700px;
+        }
+
+        .portada {
+            width: auto;
+            top: 280px;
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+
+        .title h3{
+            font-size: 20px;
+        }
+        
+        .portada img {
+            width: 180px;
+        }
+
+        .pp p{
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 10px;   
+        }
+        
+        .btn-subs {           
+            font-size: 15px;
+            width: 382px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-decoration: none;
+            margin-top: 40px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .subs {
+            font-size: 16px;
+        }
+        .costo {
+            font-size: 15px;
+        }
+       
+        .section2 {
+            padding-left: 0%;
+            padding-right: 0%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .section2 img{
+            width: 382px; 
+            margin: 0 auto;
+        }
+        
+        .section3 {
+            padding-left: 0%;
+            padding-right: 0%;
+        }
+        .section3 img {
+            width: 382px;
+            margin:0 auto;
+        }
+
+        .section4 {
+            display: none;
+        }
+
+        .section4responsive {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .reyleon2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .section4responsive img {
+            width: 382px;
+            margin: 0% auto;
+        }
+        
+        .section5 {
+            padding:20px
+        }
+
+        .dispositivos {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 30px;
+            justify-content: space-around;
+        }
+
+        .card {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+        
+        .card img {
+            width: 110px;
+            margin-bottom: 4px;
+        }
+        
+        .card h3 {
+            font-size: 21px;
+        }
+        .card p{
+            font-size: 14px;
+            line-height: 25px;
+        }
+        
+        footer{
+            padding: 15px;
+        }
+
+    }
+
+    @media screen and (max-width:320px){
+
+        .splash{
+            width: 100vw;
+            background: url(../img/portada3.jfif) center center;
+            background-size: cover;
+            padding-top: 700px;
+        }
+
+        .title h3 {
+            font-size: 19px;
+        }
+
+        .portada {
+            width: auto;
+            top: 260px;
+            text-align: center;
+            padding-top: 0px;
+            padding-left: 0px;
+        }
+        
+        .portada img {
+            width: 180px;
+        }
+
+        .pp p{
+            padding-left: 50px;
+            padding-right: 50px;
+            font-size: 11px;   
+        }
+        
+        .btn-subs {           
+            font-size: 15px;
+            width: 288px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-decoration: none;
+            margin-top: 40px;
+            text-align: center;
+            margin: auto;
+        }
+
+        .subs {
+            font-size: 16px;
+        }
+        .costo {
+            font-size: 15px;
+            margin-bottom: 0%;
+        }
+       
+        .section2 {
+            padding-left: 0%;
+            padding-right: 0%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            margin-top: 0;
+        }
+
+        .section2 img{
+            width: 288px; 
+            margin: 0 auto;
+        }
+        
+        .section2 h2 {
+            font-size: 26px;
+        }
+        
+        .section2 p {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        .section3 {
+            padding-left: 0%;
+            padding-right: 0%;
+            width: auto;
+        }
+        .section3 img {
+            width: 288px;
+            margin:0 auto;
+        }
+
+        .section3 p {
+            font-size: 15px;
+            text-align: center;
+            padding: 0%;
+        }
+
+        .section3 a {
+            font-size: 15px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+
+        .section4 {
+            display: none;
+        }
+
+        .section4responsive {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .reyleon2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .section4responsive img {
+            width: 288px;
+            margin: 0% auto;
+        }
+
+        .textos4 {
+            margin: 0;
+        }
+
+        .textos4 h3 {
+            font-size: 22px;
+        }
+        
+        .textos4 p {
+            font-size: 15px;
+        }
+
+        .section5 {
+            padding: 10px;
+        }
+        .section5 h2{
+            font-size: 22px;
+        }
+
+        .dispositivos {
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-top: 30px;
+            justify-content: space-around;
+        }
+
+        .card {
+            text-align: center;
+            margin-bottom: 35px;
+            width: 132px;
+        }
+        
+        .card img {
+            width: 80px;
+            margin-bottom: 4px;
+        }
+        
+        .card h3 {
+            font-size: 20px;
+        }
+        .card p{
+            font-size: 13px;
+            line-height: 20px;
+        }
+        
+        footer{
+            padding: 15px;
+        }
+
+    }
